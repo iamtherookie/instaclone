@@ -56,8 +56,9 @@ body {
   padding-top: 50px;
   position: absolute;
   width: 100%;
-  top: 20px;
-  bottom: 10;
+  top: 15px;
+  overflow: scroll;
+
 }
 
 .card {
@@ -66,7 +67,6 @@ body {
   max-width: 500px;
   border: 1px solid #ccc;
   border-radius: 2px;
-  overflow: auto;
   margin-bottom: 25px;
 }
 
@@ -111,6 +111,7 @@ body {
 }
 
 .card-footer {
+  background: #fff;
   padding: 15px;
   box-sizing: border-box;
 }
@@ -187,6 +188,7 @@ footer {
   left: 0;
   width: 100%;
   z-index: 20;
+  margin-bottom: 15px;
 }
 
 footer a {
