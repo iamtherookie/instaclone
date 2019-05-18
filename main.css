@@ -53,7 +53,7 @@ body {
 }
 /* body */
 .container {
-  background: red;
+  background: #FAFAFA;
   padding-top: 50px;
   position: absolute;
   width: 100%;
@@ -79,7 +79,7 @@ body {
 
 .profile-img {
   display: inline-block;
-  background: blue;
+  background: red;
   height: 30px;
   width: 30px;
   border-radius: 50%;
