@@ -40,16 +40,17 @@ header a {
   position: absolute;
   width: 100%;
   top: 50px;
-  bottom: 0;
+  bottom: 10;
 }
 
 .card {
   background: #fff;
   margin: 0 auto;
-  width: 500px;
-  height: 600px;
+  max-width: 500px;
   border: 1px solid #ccc;
   border-radius: 2px;
+  overflow: auto;
+  margin-bottom: 25px;
 }
 
 .card-header {
@@ -86,4 +87,77 @@ header a {
   font-size: 12px;
   top: 10px;
   position: relative;
+}
+
+.content img {
+  width: 100%;
+}
+
+.card-footer {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.likes {
+  color: #111;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.description p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.comments p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+
+hr {
+  padding: 0;
+}
+
+form {
+  padding-top: 15px;
+}
+.form .fas {
+  font-size: 24px;
+}
+.form .heart {
+  display: inline-block;
+  width: 7%;
+}
+
+.form .heart .fas {
+  position: relative;
+  top: 3px;
+}
+
+.add-comment {
+  display: inline-block;
+  width: 70%;
+}
+
+.add-comment input {
+  width: 100%;
+  padding: 5px;
+  font-size: 1em;
+  border: 0px solid #fff;
+}
+.options {
+  display: inline-block;
+  width: 7%;
+  float: right;
+}
+
+.options .fas {
+  position: relative;
+  top: 3px;
 }
