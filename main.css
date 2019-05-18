@@ -16,12 +16,14 @@ body {
   left: 0;
   width: 100%;
   z-index: 20;
+  border-bottom: 1px solid lightgrey;
 }
 
 .top-nav img {
-  width: 19%;
-  padding: 4px;
-  margin-top: 5px;
+ margin: .3% 33%;
+ width: 25%;
+
+
 }
 
 .top-nav a {
@@ -40,12 +42,13 @@ body {
 
 .top-nav .fa-camera-retro {
   float: left;
-  margin-left: 5px;
+  margin-top: 5px;
+  margin-left: 5%;
 }
 
 .top-nav .fa-user-plus {
   float: right;
-  margin-right: -25px;
+  margin-right: 5%;
 }
 /* body */
 .container {
@@ -53,7 +56,7 @@ body {
   padding-top: 50px;
   position: absolute;
   width: 100%;
-  top: 50px;
+  top: 20px;
   bottom: 10;
 }
 
@@ -193,6 +196,7 @@ footer a {
   margin-left: -3px;
   text-align: center;
   padding: 12px;
+  margin-bottom: 10px;
   background: #fff;
 }
 
